@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 80px;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333333;
+}
+
+section {
+    width: 90%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+figure img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+figure figcaption {
+    font-size: 40px;
+    margin-top: 20px;
+    color: #333;
+}
+
+header {
+    margin-bottom: 40px;
+}
+
+header h2 {
+    font-size: 20px;
+    color: #007bff;
+    margin-top: 20px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+}
+
+header p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.imagen {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+section h2 {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+section .subtitulo {
+    color: #007bff;
+    font-weight: bold;
+}
+
+.contacto {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.contacto p {
+    margin: 5px 0;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.timeline::before {
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: #007bff;
+}
+
+.timeline-item {
+    position: relative;
+    margin-left: 40px;
+    padding: 20px 0;
+}
+
+.timeline-item::before {
+    content: "";
+    position: absolute;
+    left: -25px;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    background-color: #007bff;
+    border-radius: 50%;
+}
+
+.timeline-item h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.timeline-item p {
+    margin: 5px 0;
+    font-size: 16px;
+}
